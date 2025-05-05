@@ -1,0 +1,11 @@
+.navbar {
+    background: #1f2937f2 !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    animation: slideDown .5s ease;
+    .navbar-brand{
+        font-size: 1.25rem;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+    }
+}
