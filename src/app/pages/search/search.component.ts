@@ -20,7 +20,8 @@ export class SearchComponent implements OnInit{
     this.httpClient.get('https://api.freeprojectapi.com/api/BusBooking/GetBusLocations').subscribe((res:any)=>{
       this.busLocationList = res;
     })
-   }searchBus(){
-    
+   }
+   searchBus(){
+    this.httpClient.get('')
    }
   }
